@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  transition: 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kiity-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+
+}
+
+.picture {
+  height: 40vw;
+  width: 80vw;
+  margin: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic {
+  height: 20vw;
+  width: 20vw;
+}
+
+.btn {
+  font-size: 17px;
+    cursor: pointer;
+    width: 10em;
+    height: 3em;
+    margin: 0 5px;
+    padding: 1px;
+    color: white;
+    background-color: rgb(113, 110, 110);
+}
+
+.btn:hover {
+  background-color: rgb(68, 66, 66);
+}
